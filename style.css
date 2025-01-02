@@ -370,7 +370,7 @@ border-radius: 50%;
          { 
              background-color: var(--bg-color); 
               border: 3px solid var(--main-color); 
-              padding: 30px 50px; 
+               padding: 30px 40px; 
               border-radius: 4rem; 
               margin-top: 50px;
                cursor: pointer; 
@@ -381,12 +381,17 @@ border-radius: 50%;
 
              } 
              .timeline-content span{
+
                
                /* border:  1px solid black; */
               font-size: 28px;
               margin-right: 20px;
               color: blue;
              }
+             /* .timeline-content h3{
+               height: 30px;
+               position: relative;
+             } */
              
 
                .timeline-content:hover{ 
@@ -400,6 +405,8 @@ border-radius: 50%;
                  .timeline-items h2{
                     font-size: 25px;
                  }
+                
+               }
 /* .timeline-content:first-child{
    margin-top: 0;
 }
@@ -759,6 +766,16 @@ border-radius: 50%;
        
         
     }
+    .timeline-content{
+      margin-left: 10px;
+    }
+    
+    /* .flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+    } */
     /* .PROFESSIONALSKILLS{
         margin-top: 20px;
     }
@@ -792,11 +809,12 @@ border-radius: 50%;
         color:var(--second-bg-color);
         position: absolute;
         font-size: 25px;
-        top: 45px;
+        top: 30px;
         right: 50px;
        
 
      }  
+    
      /* #cancel{
       display: block; 
       color: aqua;
